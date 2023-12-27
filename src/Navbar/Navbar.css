@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Chakra+Petch:wght@300;400;500;600&family=Cherry+Swash:wght@400;700&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Goldman&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar-Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px ;
+}
+
+
+.navbar-Logo img{
+    width: 230px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.Navbar-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar-Content a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.Navbar-Content button{
+    width: 250px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.Navbar-Content button:hover{
+    background-color: White;
+    color: #528f2d;
+}
