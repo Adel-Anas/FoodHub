@@ -1,0 +1,109 @@
+{
+    "recipes": [
+
+      {
+        "categoryId" : 1,
+        "name": "Sauerbraten",
+        "ingredients": [
+          "3-4 pounds beef roast",
+          "1 cup red wine vinegar",
+          "1 onion, chopped",
+          "2 carrots, chopped",
+          "3 cloves",
+          "2 bay leaves",
+          "Salt and pepper to taste",
+          "2 tablespoons vegetable oil",
+          "1 cup beef broth",
+          "2 tablespoons flour (for thickening)"
+        ],
+        "instructions": [
+          "Marinate the beef...",
+          "Remove the meat...",
+          "Heat vegetable oil...",
+          "Add the marinade...",
+          "Remove the meat...",
+          "Strain the sauce...",
+          "Thicken with flour..."
+        ]
+      },
+      {
+        "name": "Wiener Schnitzel",
+        "ingredients": [
+          "4 veal cutlets",
+          "Salt and pepper to taste",
+          "Flour for dredging",
+          "2 eggs, beaten",
+          "Bread crumbs",
+          "Butter or oil for frying",
+          "Lemon wedges for serving"
+        ],
+        "instructions": [
+          "Season the veal cutlets...",
+          "Dredge each cutlet...",
+          "Heat butter or oil...",
+          "Serve hot with lemon wedges..."
+        ]
+      },
+      {
+        "name": "Kartoffelsalat",
+        "ingredients": [
+          "4 cups boiled and sliced potatoes",
+          "1 small onion, finely chopped",
+          "6 slices bacon, cooked and crumbled",
+          "1/2 cup chicken broth",
+          "3 tablespoons white vinegar",
+          "2 tablespoons sugar",
+          "Salt and pepper to taste",
+          "Chopped fresh parsley for garnish"
+        ],
+        "instructions": [
+          "In a large bowl, combine potatoes...",
+          "In a saucepan, mix chicken broth...",
+          "Pour the hot dressing...",
+          "Garnish with chopped parsley..."
+        ]
+      },
+      {
+        "name": "Rotkohl",
+        "ingredients": [
+          "1 head red cabbage, shredded",
+          "1 large apple, peeled and diced",
+          "1 onion, finely chopped",
+          "2 tablespoons vegetable oil",
+          "1/2 cup red wine vinegar",
+          "1/4 cup sugar",
+          "1 teaspoon salt",
+          "1/2 teaspoon ground black pepper",
+          "1/2 teaspoon ground cloves"
+        ],
+        "instructions": [
+          "In a large pot, sauté onion...",
+          "Add shredded red cabbage...",
+          "Pour in red wine vinegar...",
+          "Cover and simmer over low heat..."
+        ]
+      },
+      {
+        "name": "Apfelstrudel",
+        "ingredients": [
+          "4 cups thinly sliced and peeled apples",
+          "1/2 cup sugar",
+          "1/2 cup raisins",
+          "1 teaspoon ground cinnamon",
+          "1/2 cup breadcrumbs",
+          "8 sheets phyllo dough",
+          "1/2 cup melted butter",
+          "Powdered sugar for dusting"
+        ],
+        "instructions": [
+          "Preheat oven to 350°F...",
+          "In a bowl, mix apples...",
+          "Lay out one sheet of phyllo dough...",
+          "Place the apple mixture...",
+          "Brush the top with more melted butter...",
+          "Dust with powdered sugar..."
+        ]
+      }
+    ]
+  }
+  
