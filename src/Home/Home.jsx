@@ -29,7 +29,7 @@ const Home = () => {
               It is even better than <br /> an expensive cookery book 
             </h1>
           </div>
-          <div data-aos='fade-up' data-aos-delay='250'>
+          <div data-aos='fade-up ' data-aos-delay='250'>
             <p>
             Learn how to make your favorite restaurant’s dishes
             </p>
