@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Recipes from './Recipes/Recipes';
 import Home from './Home/Home';
+import Plats from './Plats/Plats';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path = '/' element={<Home />} />
-        <Route exact path = '/Recipes' element={<Recipes  />}  />
+        <Route exact path = '/recipes/:categ' element={<Recipes  />}  />
+        <Route exact path = '/plats/:id' element={<Plats />}  />
       </Routes>
     </BrowserRouter>
   );
