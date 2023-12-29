@@ -2,9 +2,31 @@ import '../Navbar/Navbar.css';
 import { Link } from 'react-router-dom';
 import FoodLogo from '../Images/FoodLogo.png';
 import { useState } from 'react';
+import axios from 'axios';
 
 const Navbar = () => {
     const [submit, setSubmit] = useState(false);
+    const [values , setValues] = useState({
+        category:"",
+        name:"",
+        ingredients:"",
+        instructions:""
+
+    })
+
+
+    const handleClick =(e) =>{
+       e.preventDefault()
+        axios.post("http://localhost:4000/recipes" , values)
+        .then(res =>console.log(res.data) )
+        
+        .catch(err => console.log(err))
+        setValues({
+            category:"",
+            name:"",
+            ingredients:"",
+            instructions:""
+        })
     const openModel = () => {
       setSubmit(true);
       document.body.classList.add('overflow-hidden');
@@ -28,6 +50,7 @@ const Navbar = () => {
                 </div>
             </div>
             
+
             {submit && (
         <div className="fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-10 bg-[rgb(0,0,0,0.8)] overflow-y-auto " >
           <div className="input-container flex flex-col gap-y-3 text-black bg-white p-10 rounded w-[500px] h-auto relative">
@@ -58,5 +81,5 @@ const Navbar = () => {
         </>
      );
 }
- 
+}
 export default Navbar;
