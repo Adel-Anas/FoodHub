@@ -9,6 +9,7 @@ import AOS from 'aos';
 
 import 'aos/dist/aos.css';
 import "../Home/Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   useEffect(() => {
@@ -56,26 +57,26 @@ const Home = () => {
         </div>
 
         <div className="recipes-Cards" >
-            <div className="showoff-card" data-aos='fade-up'>
+            <Link to="/Moroccan" className="showoff-card" data-aos='fade-up'>
                 <img src={MorrocanCard} alt="" />
                 <p>Morrocan</p>
-            </div>
-            <div className="showoff-card" data-aos='fade-up' data-aos-delay='300'>
+            </Link>
+            <Link to="/Italian" className="showoff-card" data-aos='fade-up' data-aos-delay='300'>
                 <img src={ItalianFood} alt="" />
                 <p>Italian</p>
-            </div>
-            <div className="showoff-card" data-aos='fade-up' data-aos-delay='600'>
+            </Link>
+            <Link to="/German" className="showoff-card" data-aos='fade-up' data-aos-delay='600'>
                 <img src={GermanFood} alt="" />
                 <p>German</p>
-            </div>
-            <div className="showoff-card" data-aos='fade-up' data-aos-delay='900'>
+            </Link>
+            <Link to="/Japanese" className="showoff-card" data-aos='fade-up' data-aos-delay='900'>
                 <img src={JapaneseFood} alt="" />
                 <p>Japanese</p>
-            </div>
-            <div className="showoff-card" data-aos='fade-up' data-aos-delay='1200'>
+            </Link>
+            <Link to="/Turkish" className="showoff-card" data-aos='fade-up' data-aos-delay='1200'>
                 <img src={TurkishFood} alt="" />
                 <p>Turkish</p>
-            </div>
+            </Link>
         </div>
 
         <div className="NewsLetter" data-aos='fade-in'>
