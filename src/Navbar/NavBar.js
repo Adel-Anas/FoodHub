@@ -27,6 +27,7 @@ const Navbar = () => {
             ingredients:"",
             instructions:""
         })
+      }
     const openModel = () => {
       setSubmit(true);
       document.body.classList.add('overflow-hidden');
@@ -72,7 +73,7 @@ const Navbar = () => {
               <textarea name="ingredients" id="" cols="10" rows="6" className='textarea'></textarea>
               <label className='input-title'>Instructions:</label>
               <textarea name="instructions" id="" cols="10" rows="6" className='textarea'></textarea>
-              <button className='add-recipe'><span>ADD</span></button>
+              <button className='add-recipe' onClick={handleClick}><span>ADD</span></button>
            
           </div>
         </div>
@@ -81,5 +82,5 @@ const Navbar = () => {
         </>
      );
 }
-}
+
 export default Navbar;
