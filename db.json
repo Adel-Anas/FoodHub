@@ -23,7 +23,8 @@
         "Add apricots and almonds...",
         "Simmer until chicken is cooked through...",
         "Garnish with fresh cilantro before serving..."
-      ]
+      ],
+      "image": "https://www.thespruceeats.com/thmb/jwcPk-2rMsCB90iiQZbVBH2wkPA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-and-apricot-tagine-2394703-hero-01-8763a9f50aea4242bfbcd74cacbebe73.jpg"
     },
     {
       "id": 2,
@@ -50,7 +51,8 @@
         "Stir in chickpeas, cumin, coriander, salt, and pepper...",
         "Combine vegetable mixture with cooked couscous...",
         "Garnish with fresh parsley before serving..."
-      ]
+      ],
+      "image" : "https://www.cookingclassy.com/wp-content/uploads/2017/04/moroccan-couscous-2.jpg"
     },
     {
       "id": 3,
@@ -80,7 +82,8 @@
         "Grill kebabs until lamb is cooked to desired doneness...",
         "For yogurt sauce, mix together yogurt, lemon juice, garlic, mint, salt, and pepper...",
         "Serve kebabs with yogurt sauce on the side..."
-      ]
+      ],
+      "image": "https://disheswithdad.com/wp-content/uploads/2020/05/yogurt-lamb-kebabs-5.jpg"
     },
     {
       "id": 4,
@@ -108,7 +111,8 @@
         "Pour in vegetable broth, bring to a boil...",
         "Simmer until lentils are tender...",
         "Serve hot with lemon wedges on the side..."
-      ]
+      ],
+      "image": "https://thenewbaguette.com/wp-content/uploads/2022/10/moroccan-lentil-soup.jpg"
     },
     {
       "id": 5,
@@ -127,7 +131,8 @@
         "Let steep for 5 minutes...",
         "Strain the tea into cups...",
         "Add sugar if desired and serve with lemon wedges..."
-      ]
+      ],
+      "image": "https://static.toiimg.com/thumb/84372198.cms?width=1200&height=900"
     },
     {
       "id": 6,
@@ -148,7 +153,8 @@
         "Arrange mozzarella slices and fresh basil leaves...",
         "Drizzle with olive oil, season with salt and pepper...",
         "Bake until crust is golden and cheese is bubbly..."
-      ]
+      ],
+      "image": "https://static.toiimg.com/photo/56868564.cms"
     },
     {
       "id": 7,
@@ -170,7 +176,8 @@
         "Drain pasta, toss with egg and cheese mixture...",
         "Add pancetta, season with salt and black pepper...",
         "Garnish with chopped parsley before serving..."
-      ]
+      ],
+      "image": "https://www.thespruceeats.com/thmb/ovIQQQxQajADuIE2lqhgqq7ppyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pasta-carbonara-recipe-5210168-hero-01-80090e56abc04ca19d88ebf7fad1d157.jpg"
     },
     {
       "id": 8,
@@ -198,7 +205,8 @@
         "Repeat the layers, ending with a mascarpone layer...",
         "Refrigerate for at least 4 hours or overnight...",
         "Dust with cocoa powder before serving..."
-      ]
+      ],
+      "image": "https://bakeplaysmile.com/wp-content/uploads/2022/06/tiramisu-square.jpg"
     },
     {
       "id": 9,
@@ -222,7 +230,8 @@
         "Mix in sautéed spinach and garlic...",
         "Toss cooked ravioli in the spinach and ricotta mixture...",
         "Season with salt and pepper, garnish with cherry tomatoes..."
-      ]
+      ],
+      "image": "https://food-images.files.bbci.co.uk/food/recipes/spinach_and_ricotta_21673_16x9.jpg"
     },
     {
       "id": 10,
@@ -252,7 +261,8 @@
         "Stir in pasta, oregano, basil, salt, and pepper...",
         "Simmer until pasta and vegetables are cooked...",
         "Serve hot, garnished with grated Parmesan cheese..."
-      ]
+      ],
+      "image": "https://www.aberdeenskitchen.com/wp-content/uploads/2019/10/Easy-Classic-Minestrone-Soup-1-FI-Thumbnail-1200X1200.jpg"
     },
     {
       "id": 11,
@@ -274,7 +284,8 @@
         "Coat with panko breadcrumbs, pressing them onto the chicken...",
         "Heat vegetable oil in a pan and fry chicken until golden brown...",
         "Slice chicken and serve with tonkatsu sauce and shredded cabbage..."
-      ]
+      ],
+      "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/03/18/0/FNK_CHICKEN_KATSU_H_f_s4x3.jpg.rend.hgtvcom.1280.1280.suffix/1616083203181.jpeg"
     },
     {
       "id": 12,
@@ -294,7 +305,8 @@
         "Roll the sushi tightly using the bamboo mat...",
         "Slice the roll into bite-sized pieces...",
         "Serve with soy sauce, pickled ginger, and wasabi..."
-      ]
+      ],
+      "image": "https://cdn.pickuplimes.com/cache/a6/7d/a67d95e8044769cf96d551c0ad09f7f9.jpg"
     },
     {
       "id": 13,
@@ -315,7 +327,8 @@
         "Add tofu, green onions, and rehydrated seaweed...",
         "Simmer until heated through...",
         "Adjust flavor with soy sauce if needed..."
-      ]
+      ],
+      "image": "https://files.selecthealth.cloud/api/public/content/221409-Miso_soup_facebook.jpg"
     },
     {
       "id": 14,
@@ -336,7 +349,8 @@
         "Heat vegetable oil on a grill or pan...",
         "Grill salmon until cooked to your liking...",
         "Garnish with sesame seeds and sliced green onions..."
-      ]
+      ],
+      "image":"https://healthyfitnessmeals.com/wp-content/uploads/2018/09/Teriyaki-salmon-bake-8.jpg"
     },
     {
       "id": 15,
@@ -365,7 +379,8 @@
         "Place the cups or bowls in a steamer and steam over medium heat for about 15-20 minutes or until the custard is set.",
         "Garnish with chopped green onions before serving.",
         "Serve the Chawanmushi hot as an appetizer or part of a Japanese meal."
-      ]
+      ],
+      "image" : "https://sudachirecipes.com/wp-content/uploads/2023/01/chawanmushi-sq.jpgx"
     },
     {
       "id": 16,
@@ -388,7 +403,8 @@
         "Thread the meatballs onto skewers.",
         "Grill or cook in a pan until browned and cooked through.",
         "Serve with rice, salad, or in flatbread."
-      ]
+      ],
+      "image": "https://foodhub.scene7.com/is/image/woolworthsltdprod/lamb-koftes:Mobile-1300x1150"
     },
     {
       "id": 17,
@@ -412,7 +428,8 @@
         "Brush the top with beaten egg for a golden finish.",
         "Bake for 30-35 minutes or until golden brown.",
         "Slice and serve warm."
-      ]
+      ],
+      "image": "https://foolproofliving.com/wp-content/uploads/2022/06/Borek-Recipe-with-Spinach-and-Feta.jpg"
     },
     {
       "id": 18,
@@ -438,7 +455,8 @@
         "Drizzle yogurt and melted butter on top.",
         "Garnish with chopped parsley.",
         "Serve with a side of Greek yogurt."
-      ]
+      ],
+      "image": "https://www.chocolatesandchai.com/wp-content/uploads/2022/03/Iskender-Kebab-Featured.jpg"
     },
     {
       "id": 19,
@@ -464,14 +482,15 @@
         "Cook until the eggs are set to your liking.",
         "Optional: Crumble feta cheese on top.",
         "Garnish with fresh parsley and serve."
-      ]
+      ],
+      "image": "https://www.eatingwell.com/thmb/_tXGqm7YmBhImKkVD7IH5IGlARA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Menemen-Turkish-Eggs-v2-1x1-1-a090ffbca76943d49876b093e28432b5.jpg"
     },
     {
       "id": 20,
       "category": "Turkish",
       "name": "Hunkar Begendi (Sultan's Delight)",
       "ingredients": [
-        "1 lb eggplants",
+        "1 lb eggplants", 
         "2 cups milk",
         "2 tbsp butter",
         "2 tbsp all-purpose flour",
@@ -489,7 +508,9 @@
         "Season with salt and pepper.",
         "Serve the Hunkar Begendi as a base for the cooked and shredded chicken or lamb stew.",
         "Garnish with paprika and serve."
-      ]
+      ],
+      "image": "https://vidarbergum.com/wp-content/uploads/2023/08/hunkar-begendi-2.jpg",
+      "time" : "15"
     },
     {
       "id": 21,
@@ -516,7 +537,8 @@
         "Remove the meat and strain the sauce.",
         "Thicken the sauce with flour dissolved in water.",
         "Slice the meat and serve with the thickened sauce."
-      ]
+      ],
+      "image": "https://www.allrecipes.com/thmb/3es9jI2W0huSN_rBCbKgBN-XWjA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/221361-traditional-sauerbraten-beauty-2x1-BP-2927-61e6ad8fae53472ca528c22383113d42.jpg"
     },
     {
       "id": 22,
@@ -537,7 +559,8 @@
         "Heat butter or oil in a pan over medium heat.",
         "Fry the breaded cutlets until golden brown on both sides.",
         "Serve hot with lemon wedges."
-      ]
+      ],
+      "image": "https://www.allrecipes.com/thmb/mmP7TwfbUf4LjFtEjNpPBNaC928=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/78117-wienerschnitzel-ddmfs-3X4-0200-ec06b882b575486ab7398957709413d2.jpg"
     },
     {
       "id": 23,
@@ -558,7 +581,8 @@
         "In a saucepan, mix chicken broth, white vinegar, sugar, salt, and pepper.",
         "Pour the hot dressing over the potato mixture and toss gently.",
         "Garnish with chopped fresh parsley before serving."
-      ]
+      ],
+      "image": "https://www.eatbetter.de/sites/eatbetter.de/files/styles/full_width_tablet_4_3/public/2023-04/kartoffelsalat_mit_joghurt_8947.jpg?h=4521fff0&itok=Qxz4dofV"
     },
     {
       "id": 24,
@@ -582,7 +606,8 @@
         "Add sugar, salt, black pepper, and ground cloves.",
         "Cover and simmer over low heat until the cabbage is tender.",
         "Adjust seasoning if needed and serve."
-      ]
+      ],
+      "image": "https://emmikochteinfach.de/wp-content/uploads/2020/12/Klassischer-Rotkohl-ganz-einfach-1.jpg"
     },
     {
       "id": 25,
@@ -607,56 +632,8 @@
         "Brush the top with more melted butter.",
         "Bake in the preheated oven for 30-35 minutes or until golden brown.",
         "Dust with powdered sugar before serving."
-      ]
-    },
-    {
-      "category": "",
-      "name": "rfffff",
-      "ingredients": "gjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
-      "instructions": "yugkkkkkkkkkkkkkkkkkkkk",
-      "id": 26
-    },
-    {
-      "category": "Japanese",
-      "name": "guuiyiouiujui",
-      "ingredients": "rtththryaeawfrw",
-      "instructions": "gwwrwet",
-      "id": 27
-    },
-    {
-      "category": "Italian",
-      "name": "gsdfsfd",
-      "ingredients": "dsfffffffffffffffff",
-      "instructions": "dsfffffffffff",
-      "id": 28
-    },
-    {
-      "category": "",
-      "name": "uhjhjh",
-      "ingredients": "uguiuhuihui",
-      "instructions": "yyutytytyi",
-      "id": 29
-    },
-    {
-      "category": "Moroccan",
-      "name": "eratretre",
-      "ingredients": "tratrwretret",
-      "instructions": "rtatetetw",
-      "id": 30
-    },
-    {
-      "category": "Italian",
-      "name": "jhghgyiguguig",
-      "ingredients": "yfygyguiiio",
-      "instructions": "ygygyftftd",
-      "id": 31
-    },
-    {
-      "category": "Turkish",
-      "name": "hjghgluihu",
-      "ingredients": "tuftfyugy",
-      "instructions": "ggfufuyguy",
-      "id": 32
-    }
+      ],
+      "image": "https://d2sj0xby2hzqoy.cloudfront.net/kenwood_germany/attachments/data/000/018/747/medium/apfelstrudel.png?1658773320"
+    } 
   ]
 }
