@@ -26,6 +26,7 @@ import { useParams } from 'react-router-dom';
   return (
     <div>
         <h1>Plat</h1>
+       <img src={plats.image} alt="" />
       <h3> {plats.name}</h3>
        <li> {plats.instructions}</li>
        <p>{plats.ingredients}</p> 

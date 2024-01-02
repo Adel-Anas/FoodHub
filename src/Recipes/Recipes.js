@@ -49,7 +49,7 @@ function Recipes(){
             </div>
            ))}
         </div>
-     );
+  );
 }
- 
+
 export default Recipes;
