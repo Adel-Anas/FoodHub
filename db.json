@@ -490,7 +490,7 @@
       "category": "Turkish",
       "name": "Hunkar Begendi (Sultan's Delight)",
       "ingredients": [
-        "1 lb eggplants",
+        "1 lb eggplants", 
         "2 cups milk",
         "2 tbsp butter",
         "2 tbsp all-purpose flour",
@@ -509,7 +509,8 @@
         "Serve the Hunkar Begendi as a base for the cooked and shredded chicken or lamb stew.",
         "Garnish with paprika and serve."
       ],
-      "image": "https://vidarbergum.com/wp-content/uploads/2023/08/hunkar-begendi-2.jpg"
+      "image": "https://vidarbergum.com/wp-content/uploads/2023/08/hunkar-begendi-2.jpg",
+      "time" : "15"
     },
     {
       "id": 21,
