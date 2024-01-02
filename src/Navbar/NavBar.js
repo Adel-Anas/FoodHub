@@ -13,13 +13,16 @@ const Navbar = () => {
     instructions: "",
   });
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    axios
-      .post("http://localhost:4000/recipes", values)
-      .then((res) => console.log(res.data))
+//  POST DATA -----------------------------------------------------------
 
-      .catch((err) => console.log(err));
+  const handleClick = async() => {
+    try {
+        const res= await axios.post("http://localhost:4000/recipes", values)
+        console.log(res.data)
+    } catch (error) {
+        console.log(error)
+    }
+    
     setValues({
       category: "",
       name: "",

@@ -35,14 +35,14 @@
     margin-bottom: 30px;
 }
 
-.home-page-inputs {
+.home-page-inputs  {
     padding: 8px;
     border: 2px solid white;
     border-radius: 50px;
-    width: 550px;
+    width: 700px;
 }
 .home-page-inputs input{
-    width: 380px;
+    width: 400px;
     height: 45px;
     border: none;
     border-right: 2px solid white;
@@ -62,7 +62,7 @@
 }
 
 .home-page-inputs select{
-    width: 100px;
+    width: 110px;
     height: 45px;
     background-color: transparent;
     border: none;
@@ -73,8 +73,17 @@
 
 .home-page-inputs option{
     color:black;
+ 
 }
 
+.home-page-inputs button{
+    margin-left: 40px;
+    padding-left: 40px;
+    color: white;
+    font-family: 'Poppins' ;
+    border-left: 2px solid white;
+    background-color: transparent;
+}
 .Recipes-Container{
     width: 100%;
     display: flex;
