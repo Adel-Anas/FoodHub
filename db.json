@@ -27,32 +27,8 @@
       "image": "https://www.thespruceeats.com/thmb/jwcPk-2rMsCB90iiQZbVBH2wkPA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-and-apricot-tagine-2394703-hero-01-8763a9f50aea4242bfbcd74cacbebe73.jpg"
     },
     {
-      "id": 2,
-      "category": "Moroccan",
-      "name": "Vegetarian Couscous with Chickpeas",
-      "ingredients": [
-        "2 cups couscous",
-        "1 can (15 oz) chickpeas, drained and rinsed",
-        "1 onion, chopped",
-        "2 carrots, diced",
-        "1 zucchini, sliced",
-        "1 red bell pepper, chopped",
-        "2 cloves garlic, minced",
-        "1 tsp ground cumin",
-        "1 tsp ground coriander",
-        "Salt and pepper to taste",
-        "2 tbsp olive oil",
-        "Fresh parsley for garnish"
-      ],
-      "instructions": [
-        "Cook couscous according to package instructions...",
-        "In a skillet, sauté onions and garlic in olive oil...",
-        "Add carrots, zucchini, and bell pepper...",
-        "Stir in chickpeas, cumin, coriander, salt, and pepper...",
-        "Combine vegetable mixture with cooked couscous...",
-        "Garnish with fresh parsley before serving..."
-      ],
-      "image" : "https://www.cookingclassy.com/wp-content/uploads/2017/04/moroccan-couscous-2.jpg"
+      "category": "Japanese",
+      "id": 2
     },
     {
       "id": 3,
@@ -88,7 +64,7 @@
     {
       "id": 4,
       "category": "Moroccan",
-      "name": "Moroccan Lentil Soup",
+      "name": "marwikos",
       "ingredients": [
         "1 cup red lentils, rinsed",
         "1 onion, chopped",
@@ -113,26 +89,6 @@
         "Serve hot with lemon wedges on the side..."
       ],
       "image": "https://thenewbaguette.com/wp-content/uploads/2022/10/moroccan-lentil-soup.jpg"
-    },
-    {
-      "id": 5,
-      "category": "Moroccan",
-      "name": "Moroccan Mint Tea",
-      "ingredients": [
-        "4 cups water",
-        "3-4 green tea bags",
-        "1/2 cup fresh mint leaves",
-        "2-3 tbsp sugar (optional)",
-        "Lemon wedges for serving"
-      ],
-      "instructions": [
-        "Boil water in a teapot...",
-        "Add green tea bags and fresh mint leaves...",
-        "Let steep for 5 minutes...",
-        "Strain the tea into cups...",
-        "Add sugar if desired and serve with lemon wedges..."
-      ],
-      "image": "https://static.toiimg.com/thumb/84372198.cms?width=1200&height=900"
     },
     {
       "id": 6,
@@ -211,7 +167,7 @@
     {
       "id": 9,
       "category": "Italian",
-      "name": "Ravioli with Spinach and Ricotta Filling",
+      "name": "Ravioli with Spinach and Ricotta ",
       "ingredients": [
         "1 package (about 24 oz) fresh ravioli",
         "2 cups fresh spinach, chopped",
@@ -350,7 +306,7 @@
         "Grill salmon until cooked to your liking...",
         "Garnish with sesame seeds and sliced green onions..."
       ],
-      "image":"https://healthyfitnessmeals.com/wp-content/uploads/2018/09/Teriyaki-salmon-bake-8.jpg"
+      "image": "https://healthyfitnessmeals.com/wp-content/uploads/2018/09/Teriyaki-salmon-bake-8.jpg"
     },
     {
       "id": 15,
@@ -380,7 +336,7 @@
         "Garnish with chopped green onions before serving.",
         "Serve the Chawanmushi hot as an appetizer or part of a Japanese meal."
       ],
-      "image" : "https://sudachirecipes.com/wp-content/uploads/2023/01/chawanmushi-sq.jpgx"
+      "image": "https://sudachirecipes.com/wp-content/uploads/2023/01/chawanmushi-sq.jpgx"
     },
     {
       "id": 16,
@@ -490,7 +446,7 @@
       "category": "Turkish",
       "name": "Hunkar Begendi (Sultan's Delight)",
       "ingredients": [
-        "1 lb eggplants", 
+        "1 lb eggplants",
         "2 cups milk",
         "2 tbsp butter",
         "2 tbsp all-purpose flour",
@@ -510,7 +466,7 @@
         "Garnish with paprika and serve."
       ],
       "image": "https://vidarbergum.com/wp-content/uploads/2023/08/hunkar-begendi-2.jpg",
-      "time" : "15"
+      "time": "15"
     },
     {
       "id": 21,
@@ -634,6 +590,6 @@
         "Dust with powdered sugar before serving."
       ],
       "image": "https://d2sj0xby2hzqoy.cloudfront.net/kenwood_germany/attachments/data/000/018/747/medium/apfelstrudel.png?1658773320"
-    } 
+    }
   ]
 }

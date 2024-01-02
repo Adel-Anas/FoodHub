@@ -1,76 +1,54 @@
-import "../Navbar/Navbar.css";
-import { Link } from "react-router-dom";
-import FoodLogo from "../Images/FoodLogo.png";
+import React, { useEffect } from "react";
 import { useState } from "react";
+import { useParams } from "react-router-dom";
 import axios from "axios";
-
-const Navbar = () => {
-  const [submit, setSubmit] = useState(false);
+function Update() {
+  const { id } = useParams();
   const [values, setValues] = useState({
-    category: "Moroccan",
+    category: "",
     name: "",
     ingredients: "",
     instructions: "",
   });
-
-  //  POST DATA -----------------------------------------------------------
-
-  const handleClick = async () => {
-    try {
-      const res = await axios.post("http://localhost:4000/recipes", values);
-      console.log(res.data);
-    } catch (error) {
-      console.log(error);
-    }
-
-    setValues({
-      category: "",
-      name: "",
-      ingredients: "",
-      instructions: "",
-    });
-  };
-  const openModel = () => {
-    setSubmit(true);
-    document.body.classList.add("overflow-hidden");
-  };
-  const closeModel = () => {
-    setSubmit(false);
-    document.body.classList.remove("overflow-hidden");
+  // const navigate = useNavigate();
+  useEffect(() => {
+    axios
+      .get(`http://localhost:4000/recipes/${id}`)
+      .then((res) => {
+        setValues(res.data);
+      })
+      .catch((err) => console.log(err));
+  }, [id]);
+  const handleUpdate = (event) => {
+    event.preventDefault();
+    axios
+      .put(`http://localhost:4000/recipes/${id}`, values)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((error) => console.log(error));
+    window.history.back();
   };
   return (
     <>
-      <div className="Navbar-Container">
-        <div className="navbar-Logo">
-          <Link to="/">
-            <img src={FoodLogo} alt="" />
-          </Link>
-        </div>
-        <div className="Navbar-Content">
-          <Link to="/">Home</Link>
-          <Link to="/Recipe">Recipes</Link>
-          <Link to="/Blog">Blog</Link>
-          <Link to="/Shop">Shop</Link>
-          <button onClick={openModel}>Sumbit Recipe</button>
-        </div>
-      </div>
-
-      {submit && (
+      <form onSubmit={handleUpdate}>
         <div className="fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-10 bg-[rgb(0,0,0,0.8)] overflow-y-auto ">
           <div className="input-container flex flex-col gap-y-3 text-black bg-white p-10 rounded w-[500px] h-auto relative">
             <p
+              onClick={handleUpdate}
               className="absolute top-2 right-5 text-2xl font-bold cursor-pointer"
-              onClick={closeModel}
             >
               x
             </p>
-            <p className="text-center font-medium text-3xl">ADD A RECIPE :</p>
+            <p className="text-center font-medium text-3xl">
+              Update A RECIPE :
+            </p>
             <label className="input-title">Category :</label>
             <select
               name=""
               id=""
               className="text-black border-black border h-12"
-              onChange={(e) => setValues({ category: e.target.value })}
+              value={values.category}
             >
               <option value="Morrocan">Morrocan</option>
               <option value="Italian">Italian</option>
@@ -111,14 +89,17 @@ const Navbar = () => {
                 setValues({ ...values, instructions: e.target.value })
               }
             ></textarea>
-            <button className="add-recipe" onClick={handleClick}>
-              <span>ADD</span>
+            <button
+              onClick={handleUpdate}
+              className="bg-orange-400 hover:bg-green-600 text-white font-bold  rounded"
+            >
+              <span>SAVE</span>
             </button>
           </div>
         </div>
-      )}
+      </form>
     </>
   );
-};
+}
 
-export default Navbar;
+export default Update;
