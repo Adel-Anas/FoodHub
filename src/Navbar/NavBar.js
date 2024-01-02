@@ -7,7 +7,7 @@ import axios from "axios";
 const Navbar = () => {
   const [submit, setSubmit] = useState(false);
   const [values, setValues] = useState({
-    category: "",
+    category: "Moroccan",
     name: "",
     ingredients: "",
     instructions: "",
@@ -66,16 +66,17 @@ const Navbar = () => {
             <select
               name=""
               id=""
-              className="text-black border-black border h-12"
+              className="text-black border-black border h-12"  onChange={e=>setValues({ category:e.target.value})}
             >
-              <option value="">Morrocan</option>
-              <option value="">Italian</option>
-              <option value="">Japanese</option>
-              <option value="">Turkish</option>
-              <option value="">German</option>
+              <option value="Morrocan" >Morrocan</option>
+              <option value="Italian">Italian</option>
+              <option value="Japanese">Japanese</option>
+              <option value="Turkish">Turkish</option>
+              <option value="German">German</option>
             </select>
+
             <label className="input-title">Name:</label>
-            <input type="text" name="Name" className="input" />
+            <input type="text" name="Name" className="input" value={values.name}  onChange={e=>setValues({...values, name:e.target.value})}/>
             <label className="input-title">Ingredients:</label>
             <textarea
               name="ingredients"
@@ -83,6 +84,8 @@ const Navbar = () => {
               cols="10"
               rows="6"
               className="textarea"
+              value={values.ingredients}
+              onChange={e=>setValues({...values , ingredients:e.target.value})}
             ></textarea>
             <label className="input-title">Instructions:</label>
             <textarea
@@ -91,6 +94,8 @@ const Navbar = () => {
               cols="10"
               rows="6"
               className="textarea"
+              value={values.instructions}
+              onChange={e=> setValues({...values , instructions:e.target.value})}
             ></textarea>
             <button className="add-recipe" onClick={handleClick}>
               <span>ADD</span>
