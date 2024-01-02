@@ -17,6 +17,7 @@ import { useParams } from 'react-router-dom';
 
             console.log(error);
         }
+      
       }
       getMorrocanPlats(); 
     }, [id]);

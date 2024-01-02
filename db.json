@@ -52,7 +52,7 @@
         "Combine vegetable mixture with cooked couscous...",
         "Garnish with fresh parsley before serving..."
       ],
-      "image" : "https://www.cookingclassy.com/wp-content/uploads/2017/04/moroccan-couscous-2.jpg"
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2017/04/moroccan-couscous-2.jpg"
     },
     {
       "id": 3,
@@ -350,7 +350,7 @@
         "Grill salmon until cooked to your liking...",
         "Garnish with sesame seeds and sliced green onions..."
       ],
-      "image":"https://healthyfitnessmeals.com/wp-content/uploads/2018/09/Teriyaki-salmon-bake-8.jpg"
+      "image": "https://healthyfitnessmeals.com/wp-content/uploads/2018/09/Teriyaki-salmon-bake-8.jpg"
     },
     {
       "id": 15,
@@ -380,7 +380,7 @@
         "Garnish with chopped green onions before serving.",
         "Serve the Chawanmushi hot as an appetizer or part of a Japanese meal."
       ],
-      "image" : "https://sudachirecipes.com/wp-content/uploads/2023/01/chawanmushi-sq.jpgx"
+      "image": "https://www.thespruceeats.com/thmb/t4lCYagGImoWlxPtNTGO9LyzFcE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SES-chawanmushi-2031018-b28c243bca854d51a259c0ab4ce6e64f.jpg"
     },
     {
       "id": 16,
@@ -490,7 +490,7 @@
       "category": "Turkish",
       "name": "Hunkar Begendi (Sultan's Delight)",
       "ingredients": [
-        "1 lb eggplants", 
+        "1 lb eggplants",
         "2 cups milk",
         "2 tbsp butter",
         "2 tbsp all-purpose flour",
@@ -510,7 +510,7 @@
         "Garnish with paprika and serve."
       ],
       "image": "https://vidarbergum.com/wp-content/uploads/2023/08/hunkar-begendi-2.jpg",
-      "time" : "15"
+      "time": "15"
     },
     {
       "id": 21,
@@ -634,6 +634,6 @@
         "Dust with powdered sugar before serving."
       ],
       "image": "https://d2sj0xby2hzqoy.cloudfront.net/kenwood_germany/attachments/data/000/018/747/medium/apfelstrudel.png?1658773320"
-    } 
+    }
   ]
 }
