@@ -14,7 +14,6 @@ const Navbar = ({ getAllData }) => {
     image: "",
   });
 
-
   // Upload image to clowdinary -------------------------------------------------
   const [image, setImage] = useState();
   const upload_preset = "ml_default";
@@ -45,21 +44,20 @@ const Navbar = ({ getAllData }) => {
     try {
       const res = await axios.post("http://localhost:4000/recipes", values);
       console.log(res.data);
+      console.log(res.data);
     } catch (error) {
       console.log(error);
     }
-
-    getAllData();
-
     setValues({
       category: "",
       name: "",
       ingredients: "",
       instructions: "",
     });
-
+    window.location.reload();
     closeModel();
   };
+
   const openModel = () => {
     setSubmit(true);
     document.body.classList.add("overflow-hidden");
@@ -69,10 +67,9 @@ const Navbar = ({ getAllData }) => {
     document.body.classList.remove("overflow-hidden");
   };
 
-  
   return (
     <>
-      <div className="Navbar-Container">
+      <div className="Navbar-Container absolute z-10">
         <div className="navbar-Logo">
           <Link to="/">
             <img src={FoodLogo} alt="" />
@@ -80,7 +77,7 @@ const Navbar = ({ getAllData }) => {
         </div>
         <div className="Navbar-Content">
           <Link to="/">Home</Link>
-          <Link to="/Recipe">Recipes</Link>
+          <Link to="/">Recipes</Link>
           <Link to="/Blog">Blog</Link>
           <Link to="/Shop">Shop</Link>
           <button onClick={openModel}>Sumbit Recipe</button>
@@ -104,6 +101,7 @@ const Navbar = ({ getAllData }) => {
               className="text-black border-black border h-12"
               onChange={(e) => setValues({ category: e.target.value })}
             >
+              <option value="Morrocan">Morrocan</option>
               <option value="Morrocan">Morrocan</option>
               <option value="Italian">Italian</option>
               <option value="Japanese">Japanese</option>

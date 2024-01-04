@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <div className="Landing-page-container">
-        <Navbar />
+        
         <div className="Home-Description">
           <div data-aos="fade-up">
             <h1>

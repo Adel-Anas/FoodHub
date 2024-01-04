@@ -16,6 +16,7 @@
   width: 100%;
   justify-content: space-between;
   padding: 20px 20px 0px 20px;
+  z-index: 1;
 }
 
 .navbar-Logo img {
