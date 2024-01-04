@@ -3,9 +3,12 @@ import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import "../Recipes/Recipes.css";
 import Navbar from "../Navbar/NavBar";
+
 function Recipes() {
   const [recipes, setRecipes] = useState([]);
   const { categ } = useParams();
+
+
 
   // GET ALL DATA  -----------------------------------------------------------------------
   const getAllData = useCallback(async () => {
@@ -13,12 +16,13 @@ function Recipes() {
       const response = await axios.get(
         `http://localhost:4000/recipes?category=${categ}`
       );
-      setRecipes(response.data.reverse());
-      console.log(recipes);
+      setRecipes(response.data);
+      console.log(response.data.reverse());
     } catch (error) {
       console.log(error);
     }
-  },[])
+  }, []);
+
   useEffect(() => {
     getAllData();
   }, []);
@@ -26,20 +30,20 @@ function Recipes() {
   // DELETE  A RECIPE -----------------------------------------------------------------------
 
   const handleDelete = async (id) => {
-   
     try {
-      const result = await axios.delete("http://localhost:4000/recipes/" + id);
-      console.log(result);
+      await axios.delete(`http://localhost:4000/recipes/${id}`);
+      getAllData();
     } catch (error) {
       console.log(error);
     }
-    getAllData();
   };
   return (
     <>
       <div className="Recipe-page">
-        <Navbar getAllData={getAllData}/>
-      <h1 className="text-center mt-24 text-white text-[60px] font-bold font-['Poppins'] ">Category : {categ}</h1>
+        <Navbar getAllData={getAllData} />
+        <h1 className="text-center pt-44 text-white text-[60px] font-bold font-['Poppins'] ">
+          Category : {categ}
+        </h1>
       </div>
 
       <div className="flex w-full items-center justify-center   ">
@@ -47,7 +51,7 @@ function Recipes() {
           {recipes.reverse().map((recipe, id) => {
             return (
               <div key={id}>
-                <div className="nav-recipe-page w-[400px] h-[500px] bg-white border border-gray-200 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
+                <div className="nav-recipe-page w-[400px] h-[500px] bg-white border border-gray-200 rounded-lg shadow-2xl overflow-hidden">
                   <div>
                     <Link to={`/plats/${recipe.id}`}>
                       <img
@@ -57,18 +61,20 @@ function Recipes() {
                       />
                     </Link>
                     <div className="p-5">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white hover:text-lime-600	">
+                    <Link to={`/plats/${recipe.id}`}>
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 hover:text-lime-600 hover:cursor-pointer	">
                         {recipe.name}
                       </h5>
+                      </Link>
                     </div>
                   </div>
                   <div className="p-5">
-                  <button
-          onClick={(e) => handleDelete(recipe.id)}
-          className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-        >
-          DELETE
-        </button>
+                    <button
+                      onClick={(e) => handleDelete(recipe.id)}
+                      className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    >
+                      DELETE
+                    </button>
                   </div>
                 </div>
               </div>
