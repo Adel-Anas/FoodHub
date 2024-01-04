@@ -115,11 +115,10 @@
       "image": "https://thenewbaguette.com/wp-content/uploads/2022/10/moroccan-lentil-soup.jpg"
     },
     {
-      "id": 5,
       "category": "Moroccan",
       "name": "Moroccan Mint Tea",
       "ingredients": [
-        "4 cups water",
+        "3 cups water",
         "3-4 green tea bags",
         "1/2 cup fresh mint leaves",
         "2-3 tbsp sugar (optional)",
@@ -132,7 +131,8 @@
         "Strain the tea into cups...",
         "Add sugar if desired and serve with lemon wedges..."
       ],
-      "image": "https://static.toiimg.com/thumb/84372198.cms?width=1200&height=900"
+      "image": "https://static.toiimg.com/thumb/84372198.cms?width=1200&height=900",
+      "id": 5
     },
     {
       "category": "Italian",

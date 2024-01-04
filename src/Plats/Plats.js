@@ -20,7 +20,7 @@ function Plats() {
     setValues({
       category: plats.category,
       name: plats.name,
-      ingredients: plats.ingredients.join(';'),
+      ingredients: plats.ingredients,
       instructions: plats.instructions,
       image: plats.image,
     });
@@ -146,7 +146,7 @@ function Plats() {
               rows="4"
               className="textarea"
               value={values.ingredients}
-              onChange={(e) => { setValues({ ...values, instructions: e.target.value.split(";") })}}
+              onChange={(e) => { setValues({ ...values, ingredients: e.target.value.split(",") })}}
             ></textarea>
             <label className="input-title">Instructions:</label>
             <textarea
