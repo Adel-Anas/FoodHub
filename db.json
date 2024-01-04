@@ -27,8 +27,32 @@
       "image": "https://www.thespruceeats.com/thmb/jwcPk-2rMsCB90iiQZbVBH2wkPA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-and-apricot-tagine-2394703-hero-01-8763a9f50aea4242bfbcd74cacbebe73.jpg"
     },
     {
-      "category": "Japanese",
-      "id": 2
+      "id": 2,
+      "category": "Moroccan",
+      "name": "Vegetarian Couscous with Chickpeas",
+      "ingredients": [
+        "2 cups couscous",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "1 onion, chopped",
+        "2 carrots, diced",
+        "1 zucchini, sliced",
+        "1 red bell pepper, chopped",
+        "2 cloves garlic, minced",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "Salt and pepper to taste",
+        "2 tbsp olive oil",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "Cook couscous according to package instructions...",
+        "In a skillet, sauté onions and garlic in olive oil...",
+        "Add carrots, zucchini, and bell pepper...",
+        "Stir in chickpeas, cumin, coriander, salt, and pepper...",
+        "Combine vegetable mixture with cooked couscous...",
+        "Garnish with fresh parsley before serving..."
+      ],
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2017/04/moroccan-couscous-2.jpg"
     },
     {
       "id": 3,
