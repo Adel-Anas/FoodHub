@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 import "../Recipes/Recipes.css";
@@ -8,7 +8,7 @@ function Recipes() {
   const { categ } = useParams();
 
   // GET ALL DATA  -----------------------------------------------------------------------
-  const getMorrocanData = async () => {
+  const getAllData = useCallback(async () => {
     try {
       const response = await axios.get(
         `http://localhost:4000/recipes?category=${categ}`
@@ -18,27 +18,27 @@ function Recipes() {
     } catch (error) {
       console.log(error);
     }
-  };
+  },[])
   useEffect(() => {
-    getMorrocanData();
+    getAllData();
   }, []);
 
   // DELETE  A RECIPE -----------------------------------------------------------------------
 
   const handleDelete = async (id) => {
-    //
+   
     try {
       const result = await axios.delete("http://localhost:4000/recipes/" + id);
       console.log(result);
     } catch (error) {
       console.log(error);
     }
-    getMorrocanData();
+    getAllData();
   };
   return (
     <>
       <div className="Recipe-page">
-        <Navbar />
+        <Navbar getAllData={getAllData}/>
       <h1 className="text-center mt-24 text-white text-[60px] font-bold font-['Poppins'] ">Category : {categ}</h1>
       </div>
 
