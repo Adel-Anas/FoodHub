@@ -3,10 +3,13 @@ import Recipes from "./Recipes/Recipes";
 import Home from "./Home/Home";
 import Plats from "./Plats/Plats";
 import Update from "./Recipes/Update";
+import Navbar from "../src/Navbar/NavBar";
+
 
 function App() {
   return (
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/:categ" element={<Recipes />} />

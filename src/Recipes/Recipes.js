@@ -37,9 +37,8 @@ function Recipes() {
   };
   return (
     <>
-      <div className="Recipe-page">
-        <Navbar />
-      <h1 className="text-center mt-24 text-white text-[60px] font-bold font-['Poppins'] ">Category : {categ}</h1>
+      <div className="Recipe-page flex items-center justify-center">
+      <h1 className="text-center text-white text-[60px] font-bold font-['Poppins'] ">Category : {categ}</h1>
       </div>
 
       <div className="flex w-full items-center justify-center   ">
