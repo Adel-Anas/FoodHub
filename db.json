@@ -4,6 +4,7 @@
       "id": 1,
       "category": "Moroccan",
       "name": "Chicken Tagine with Apricots",
+      "description": "A savory and sweet Moroccan dish, this Chicken Tagine with Apricots combines tender chicken, dried apricots, and almonds in a flavorful blend of cumin, ginger, and cinnamon. Slow-cooked to perfection, it's garnished with fresh cilantro for a delightful finish.",
       "ingredients": [
         "1 whole chicken, cut into pieces",
         "1 onion, finely chopped",
@@ -27,13 +28,39 @@
       "image": "https://www.thespruceeats.com/thmb/jwcPk-2rMsCB90iiQZbVBH2wkPA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-and-apricot-tagine-2394703-hero-01-8763a9f50aea4242bfbcd74cacbebe73.jpg"
     },
     {
-      "category": "Japanese",
-      "id": 2
+      "id": 2,
+      "category": "Moroccan",
+      "name": "Vegetarian Couscous with Chickpeas",
+      "description": "Embark on a culinary journey to Morocco with this delightful Vegetarian Couscous featuring chickpeas. A harmonious blend of couscous, chickpeas, and an array of vibrant vegetables, including onions, carrots, zucchini, and red bell peppers. Infused with the rich flavors of minced garlic, ground cumin, and coriander, this dish is seasoned to perfection with salt and pepper. A drizzle of olive oil brings it all together, creating a fragrant and wholesome Moroccan masterpiece. Garnish with fresh parsley for a burst of color and freshness, making this couscous a flavorful and satisfying meal suitable for vegetarians and couscous enthusiasts alike.",
+      "ingredients": [
+        "2 cups couscous",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "1 onion, chopped",
+        "2 carrots, diced",
+        "1 zucchini, sliced",
+        "1 red bell pepper, chopped",
+        "2 cloves garlic, minced",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "Salt and pepper to taste",
+        "2 tbsp olive oil",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "Cook couscous according to package instructions...",
+        "In a skillet, sauté onions and garlic in olive oil...",
+        "Add carrots, zucchini, and bell pepper...",
+        "Stir in chickpeas, cumin, coriander, salt, and pepper...",
+        "Combine vegetable mixture with cooked couscous...",
+        "Garnish with fresh parsley before serving..."
+      ],
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2017/04/moroccan-couscous-2.jpg"
     },
     {
       "id": 3,
       "category": "Moroccan",
       "name": "Lamb Kebabs with Yogurt Sauce",
+      "description": "These Moroccan Lamb Kebabs are marinated in a blend of olive oil, cumin, coriander, and paprika before being grilled to perfection. Served with a refreshing yogurt sauce made with Greek yogurt, lemon juice, garlic, and mint.",
       "ingredients": [
         "1 lb lamb, cubed",
         "1 red onion, cut into chunks",
@@ -64,7 +91,8 @@
     {
       "id": 4,
       "category": "Moroccan",
-      "name": "marwikos",
+      "name": "marwikoss",
+      "description": "A hearty and nutritious Moroccan Lentil Soup, Marwikos features red lentils, carrots, celery, and a flavorful mix of cumin, coriander, turmeric, and paprika. Served hot with a squeeze of lemon, it's a comforting and wholesome dish.",
       "ingredients": [
         "1 cup red lentils, rinsed",
         "1 onion, chopped",
@@ -94,6 +122,7 @@
       "id": 6,
       "category": "Italian",
       "name": "Classic Margherita Pizza",
+      "description": "A timeless Italian favorite, the Classic Margherita Pizza boasts a thin crust topped with tomato sauce, fresh mozzarella, and basil leaves. Drizzled with olive oil and seasoned with salt and pepper, it's baked until golden and bubbly.",
       "ingredients": [
         "Pizza dough (store-bought or homemade)",
         "1/2 cup pizza sauce",
@@ -116,6 +145,7 @@
       "id": 7,
       "category": "Italian",
       "name": "Pasta Carbonara",
+      "description": "Indulge in the rich flavors of Pasta Carbonara, featuring perfectly cooked spaghetti coated in a creamy sauce made with pancetta or guanciale, eggs, Pecorino Romano, and Parmesan. Garnished with chopped parsley for a finishing touch.",
       "ingredients": [
         "1 lb spaghetti",
         "1/2 lb pancetta or guanciale, diced",
@@ -139,6 +169,7 @@
       "id": 8,
       "category": "Italian",
       "name": "Tiramisu",
+      "description": "Savor the elegance of Tiramisu, a classic Italian dessert. Layers of coffee-soaked ladyfinger cookies alternate with a velvety mixture of mascarpone cheese, eggs, sugar, and whipped cream. Dust with cocoa powder before serving.",
       "ingredients": [
         "1 cup strong brewed coffee, cooled",
         "3 tbsp coffee liqueur (e.g., Kahlúa)",
@@ -168,6 +199,7 @@
       "id": 9,
       "category": "Italian",
       "name": "Ravioli with Spinach and Ricotta ",
+      "description": "Enjoy a delightful plate of Ravioli with Spinach and Ricotta, featuring fresh ravioli tossed in a sautéed mixture of garlic, spinach, ricotta, and Parmesan. Seasoned to perfection and garnished with cherry tomatoes for a burst of freshness.",
       "ingredients": [
         "1 package (about 24 oz) fresh ravioli",
         "2 cups fresh spinach, chopped",
@@ -193,6 +225,7 @@
       "id": 10,
       "category": "Italian",
       "name": "Minestrone Soup",
+      "description": "A comforting bowl of Minestrone Soup, this Italian classic combines a medley of vegetables, kidney beans, pasta, and aromatic herbs in a savory vegetable broth. Garnish with grated Parmesan cheese for an extra layer of flavor.",
       "ingredients": [
         "2 tbsp olive oil",
         "1 onion, chopped",
@@ -224,6 +257,7 @@
       "id": 11,
       "category": "Japanese",
       "name": "Chicken Katsu",
+      "description": "Crispy and golden-brown, Chicken Katsu features breaded and fried boneless chicken breasts. Served with tonkatsu sauce and shredded cabbage, it's a beloved Japanese dish with a delightful combination of textures.",
       "ingredients": [
         "4 boneless, skinless chicken breasts",
         "Salt and pepper to taste",
@@ -247,6 +281,7 @@
       "id": 12,
       "category": "Japanese",
       "name": "Sushi Rolls (Maki)",
+      "description": "Dive into the world of Japanese cuisine with Sushi Rolls (Maki). Nori seaweed sheets envelop a flavorful combination of sushi rice and assorted fillings like avocado, cucumber, crab, and smoked salmon. Served with soy sauce, pickled ginger, and wasabi.",
       "ingredients": [
         "Nori seaweed sheets",
         "Sushi rice",
@@ -268,6 +303,7 @@
       "id": 13,
       "category": "Japanese",
       "name": "Miso Soup",
+      "description": "Warm up with a bowl of Miso Soup, a Japanese classic featuring a dashi broth infused with miso paste, tofu, green onions, and rehydrated seaweed. Balanced flavors make it a comforting and nourishing choice.",
       "ingredients": [
         "4 cups dashi (Japanese soup stock)",
         "1/2 cup miso paste",
@@ -290,6 +326,7 @@
       "id": 14,
       "category": "Japanese",
       "name": "Teriyaki Salmon",
+      "description": "Succulent Teriyaki Salmon fillets are marinated in a delightful mixture of soy sauce, sake, mirin, and sugar. Grilled to perfection, they are garnished with sesame seeds and sliced green onions for an extra layer of flavor.",
       "ingredients": [
         "4 salmon fillets",
         "1/4 cup soy sauce",
@@ -312,6 +349,7 @@
       "id": 15,
       "category": "Japanese",
       "name": "Chawanmushi (Savory Egg Custard)",
+      "description": "Delight in the delicate flavors of Chawanmushi, a Japanese savory egg custard. Dashi-infused eggs cradle a mix of chicken, shrimp, shiitake mushrooms, ginkgo nuts, and peas. Steamed to perfection, it's garnished with chopped green onions.",
       "ingredients": [
         "2 cups dashi (Japanese soup stock)",
         "4 large eggs",
@@ -342,6 +380,7 @@
       "id": 16,
       "category": "Turkish",
       "name": "Koftes (Turkish Meatballs)",
+      "description": "Enjoy the rich flavors of Koftes, Turkish meatballs made with a blend of ground beef or lamb, grated onion, breadcrumbs, egg, and a mix of garlic, cumin, paprika, salt, and pepper. Grilled to perfection",
       "ingredients": [
         "1 lb ground beef or lamb",
         "1 onion, grated",
@@ -366,6 +405,7 @@
       "id": 17,
       "category": "Turkish",
       "name": "Borek (Turkish Pastry with Cheese and Herbs)",
+      "description": "A delightful Turkish pastry, Borek, is a perfect blend of phyllo dough layers filled with a mixture of crumbled feta cheese, chopped spinach, and parsley. Rolled into a log shape and baked to a golden brown, it's a savory treat brushed with egg wash for a stunning finish.",
       "ingredients": [
         "1 package phyllo dough",
         "1 cup feta cheese, crumbled",
@@ -391,6 +431,7 @@
       "id": 18,
       "category": "Turkish",
       "name": "Iskender Kebab",
+      "description": "Indulge in the flavors of Iskender Kebab, a Turkish delight featuring thinly sliced grilled lamb or beef arranged on bite-sized pieces of pita bread. Drizzled with a hot tomato-garlic sauce, yogurt, and melted butter, it's a kebab experience garnished with chopped parsley.",
       "ingredients": [
         "1 lb lamb or beef, thinly sliced",
         "1/2 cup tomato sauce",
@@ -418,6 +459,7 @@
       "id": 19,
       "category": "Turkish",
       "name": "Menemen",
+      "description": "Menemen, a Turkish breakfast favorite, brings together sautéed onions, green bell peppers, and diced tomatoes, creating a flavorful base for eggs. Sprinkled with red pepper flakes, salt, and pepper, this dish can be elevated with optional feta cheese and fresh parsley.",
       "ingredients": [
         "2 tbsp olive oil",
         "1 onion, chopped",
@@ -445,6 +487,7 @@
       "id": 20,
       "category": "Turkish",
       "name": "Hunkar Begendi (Sultan's Delight)",
+      "description": "Experience the regal Hunkar Begendi, where roasted eggplants are mashed and combined with a velvety sauce made from butter, flour, and milk. This luscious base serves as the perfect foundation for cooked and shredded chicken or lamb stew, garnished with paprika.",
       "ingredients": [
         "1 lb eggplants",
         "2 cups milk",
@@ -472,6 +515,7 @@
       "id": 21,
       "category": "German",
       "name": "Sauerbraten (German Pot Roast)",
+      "description": "Savor the rich flavors of Sauerbraten, a traditional German pot roast marinated in red wine vinegar, onions, carrots, cloves, and bay leaves for at least 24 hours. Slow-cooked until tender, the meat is served with a thickened sauce for a hearty and comforting meal.",
       "ingredients": [
         "3-4 pounds beef roast",
         "1 cup red wine vinegar",
@@ -500,6 +544,7 @@
       "id": 22,
       "category": "German",
       "name": "Wiener Schnitzel",
+      "description": "Delight in the classic Wiener Schnitzel, featuring veal cutlets seasoned, coated in flour and breadcrumbs, then fried until golden brown. Served hot, this iconic Austrian dish is traditionally accompanied by lemon wedges for a burst of citrus flavor.",
       "ingredients": [
         "4 veal cutlets",
         "Salt and pepper to taste",
@@ -522,6 +567,7 @@
       "id": 23,
       "category": "German",
       "name": "Kartoffelsalat (German Potato Salad)",
+      "description": "Enjoy the heartiness of Kartoffelsalat, a German potato salad combining boiled and sliced potatoes, chopped onions, and crumbled bacon. Tossed in a warm dressing of chicken broth, white vinegar, sugar, salt, and pepper, it's garnished with fresh parsley for a flavorful side dish.",
       "ingredients": [
         "4 cups boiled and sliced potatoes",
         "1 small onion, finely chopped",
@@ -544,6 +590,7 @@
       "id": 24,
       "category": "German",
       "name": "Rotkohl (German Red Cabbage)",
+      "description": "Experience the vibrant Rotkohl, a German red cabbage dish sautéed with onions, diced apples, red wine vinegar, sugar, salt, black pepper, and ground cloves. Slow-simmered to perfection, this side dish offers a balance of sweet and savory flavors.",
       "ingredients": [
         "1 head red cabbage, shredded",
         "1 large apple, peeled and diced",
@@ -569,6 +616,7 @@
       "id": 25,
       "category": "German",
       "name": "Apfelstrudel (German Apple Strudel)",
+      "description": "Delight in the sweet goodness of Apfelstrudel, a German apple strudel made with thinly sliced apples, sugar, raisins, and ground cinnamon wrapped in layers of phyllo dough. Baked until golden, it's a delectable treat dusted with powdered sugar.",
       "ingredients": [
         "4 cups thinly sliced and peeled apples",
         "1/2 cup sugar",

@@ -27,7 +27,7 @@ function Update() {
         console.log(res);
       })
       .catch((error) => console.log(error));
-    window.history.back();
+     window.history.back();
   };
   return (
     <>

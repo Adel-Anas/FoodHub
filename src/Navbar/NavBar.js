@@ -40,7 +40,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="Navbar-Container">
+      <div className="Navbar-Container absolute z-10">
         <div className="navbar-Logo">
           <Link to="/">
             <img src={FoodLogo} alt="" />
