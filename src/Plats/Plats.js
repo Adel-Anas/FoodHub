@@ -16,7 +16,7 @@ function Plats() {
   });
 
   const openEdit = () => {
-    console.log('here',plats.ingredients);
+    // console.log('here',plats.ingredients);
     setValues({
       category: plats.category,
       name: plats.name,
@@ -68,14 +68,6 @@ function Plats() {
         </div>
       </div>
 
-      <div className="ml-6">
-        <div>
-          <h1 className="text-[30px] font-bold font-['Poppins'] ">
-            Description:
-          </h1>
-          <p className="text-xl font-light"> {plats.description}</p>
-        </div>
-
         <div className="mt-6">
           <h1 className="text-[30px] font-bold font-['Poppins'] ">
             Ingredients:
@@ -89,7 +81,7 @@ function Plats() {
         </div>
         <div className="my-6">
           <h1 className="text-[30px] font-bold font-['Poppins'] ">
-            The Steps:
+           Instructions :
           </h1>
           <ul className="list-decimal ">
             {plats.instructions &&
@@ -98,7 +90,7 @@ function Plats() {
               })}
           </ul>
         </div>
-      </div>
+      
       <button
         className="bg-lime-700 text-white rounded-lg text-xl font-bold px-8 py-2 ml-3 hover:bg-lime-600"
         onClick={openEdit}
